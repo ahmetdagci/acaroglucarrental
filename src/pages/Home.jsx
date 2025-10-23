@@ -17,9 +17,14 @@ const Home = () => (
         </p>
         <Link to="/cars" className="inline-block bg-red-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-red-700 transition-all">Araçları Gör</Link>
       </div>
-      <div className="flex-1 mt-10 md:mt-0 z-10 flex justify-center">
-        <img src="/main-car.png" alt="Car" class="car-img" className="w-auto max-w-2xl lg:max-w-3xl drop-shadow-2xl animate-fadeIn" />
+     <div className="flex-1 mt-10 md:mt-0 z-10 flex justify-center">
+        <img
+          src="/main-car.png"
+          alt="Car"
+          className="w-3/4 sm:w-4/5 md:w-4/5 lg:w-3/4 xl:w-4/5 max-w-full drop-shadow-2xl animate-fadeIn"
+        />
       </div>
+
     </div>
   </section>
 );
