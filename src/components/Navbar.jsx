@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="bg-white shadow-md fixed w-full z-50">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2">
-          <img src="/acaroglu-tr.png" alt="Logo" className="h-20 w-auto" />
+          <img src="/acaroglu-tr3.png" alt="Logo" className="h-20 w-auto" />
         </Link>
         <button onClick={() => setOpen(!open)} className="md:hidden text-gray-700 focus:outline-none">
           ☰

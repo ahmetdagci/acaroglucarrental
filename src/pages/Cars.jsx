@@ -24,9 +24,6 @@ const Cars = () => {
                   <p className="text-gray-600 mb-1">{car.fuel}</p>
                   <p className="text-gray-600 mb-3">{car.gear}</p>
                 </div>
-                <div className="mt-auto">
-                  <p className="text-lg font-semibold text-red-600 mb-3">{car.price}</p>
-                </div>
               </div>
             </div>
           ))}
