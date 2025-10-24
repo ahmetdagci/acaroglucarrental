@@ -16,7 +16,7 @@ const Cars = () => {
           {cars.map(car => (
             <div key={car.id} className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all overflow-hidden flex flex-col">
               <div className="aspect-[4/3] overflow-hidden">
-                <img src={car.image} alt={car.name} className="w-full h-48 object-cover" loading="lazy" />
+                <img src={car.image} alt={car.name} className="w-full h-48 sm:h-56 md:h-64 lg:h-72 xl:h-80 object-cover transition-all duration-500" loading="lazy" />
               </div>
               <div className="p-5 flex flex-col justify-between flex-grow">
                 <div>
