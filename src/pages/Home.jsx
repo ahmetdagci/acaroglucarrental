@@ -10,9 +10,9 @@ const Home = () => (
     <div
       className="absolute inset-0 bg-cover bg-center"
       style={{
-        backgroundImage: "url('/acaroglu-bg.png')",
+        backgroundImage: "url('/acaroglu-bg2.png')",
         backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundPosition: "center 100%",
       }}
     ></div>
 
